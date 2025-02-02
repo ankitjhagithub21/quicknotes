@@ -39,7 +39,7 @@ const Note = ({ note, handleDelete, handleEdit }) => {
                         </div>
                     </div>
                     <hr />
-                    <h5 className='text-xl'>{note.title}</h5>
+                    <h5 className='text-xl mt-2'>{note.title}</h5>
                     <p>{note.content}</p>
 
                 </div>
